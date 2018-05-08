@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.boni.boniuts.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="8dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/burunghantu"
+                android:background="@drawable/burunghantu"
+                android:layout_margin="2dp">
+            </Button>
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:id="@+id/gajah"
+                android:background="@drawable/gajah"
+                android:layout_margin="2dp">
+            </Button>
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:id="@+id/kambing"
+                android:background="@drawable/kambing"
+                android:layout_margin="2dp">
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="8dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/kucing"
+                android:background="@drawable/kucing"
+                android:layout_margin="2dp">
+            </Button>
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:id="@+id/lebah"
+                android:background="@drawable/lebah"
+                android:layout_margin="2dp">
+            </Button>
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:id="@+id/singa"
+                android:background="@drawable/singa"
+                android:layout_margin="2dp">
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="8dp">
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:id="@+id/siput"
+                android:background="@drawable/siput"
+                android:layout_margin="2dp">
+            </Button>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/ayam"
+                android:background="@drawable/ayam"
+                android:layout_margin="2dp">
+            </Button>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/ular"
+                android:background="@drawable/ular"
+                android:layout_margin="2dp">
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="8dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/gurita"
+                android:background="@drawable/gurita"
+                android:layout_margin="2dp">
+            </Button>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/jerapah"
+                android:background="@drawable/jerapah"
+                android:layout_margin="2dp">
+            </Button>
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:id="@+id/kepiting"
+                android:background="@drawable/kepiting"
+                android:layout_margin="2dp">
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
